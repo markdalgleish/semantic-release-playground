@@ -1,0 +1,27 @@
+{
+  "name": "@markdalgleish/semantic-release-playground",
+  "version": "0.0.0-development",
+  "description": "semantic-release playground",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "semantic-release": "semantic-release pre && npm publish && semantic-release post",
+    "commitmsg": "validate-commit-msg"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/markdalgleish/semantic-release-playground.git"
+  },
+  "author": "Mark Dalgleish",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/markdalgleish/semantic-release-playground/issues"
+  },
+  "homepage": "https://github.com/markdalgleish/semantic-release-playground#readme",
+  "devDependencies": {
+    "husky": "^0.11.9",
+    "jest": "^17.0.3",
+    "semantic-release": "^6.3.2",
+    "validate-commit-msg": "^2.8.2"
+  }
+}
