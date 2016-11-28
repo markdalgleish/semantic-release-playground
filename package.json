@@ -6,7 +6,7 @@
   "scripts": {
     "commit": "git-cz",
     "test": "jest",
-    "semantic-release": "semantic-release pre && npm publish && semantic-release post",
+    "semantic-release": "semantic-release pre && npm publish --access=public && semantic-release post",
     "commitmsg": "validate-commit-msg"
   },
   "repository": {
