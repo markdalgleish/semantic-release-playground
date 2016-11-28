@@ -4,6 +4,7 @@
   "description": "semantic-release playground",
   "main": "index.js",
   "scripts": {
+    "commit": "git-cz",
     "test": "jest",
     "semantic-release": "semantic-release pre && npm publish && semantic-release post",
     "commitmsg": "validate-commit-msg"
@@ -19,9 +20,15 @@
   },
   "homepage": "https://github.com/markdalgleish/semantic-release-playground#readme",
   "devDependencies": {
+    "cz-conventional-changelog": "^1.2.0",
     "husky": "^0.11.9",
     "jest": "^17.0.3",
     "semantic-release": "^6.3.2",
     "validate-commit-msg": "^2.8.2"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
   }
 }
