@@ -2,6 +2,6 @@ var index = require('./index');
 
 describe('semantic-release-playground', function() {
   it('should work', function() {
-    expect(index()).toBe('Hello World!');
+    expect(index()).toBe('Hello World!!');
   });
 });
